@@ -1,0 +1,60 @@
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #c7aa8b;
+}
+
+.myName {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 2rem;
+}
+
+.myImg {
+    display: flex;
+    float: left;
+    width: 140px;
+    height: 145px;
+    margin-left: 25px;
+    margin-right: 3rem;
+
+}
+
+span {
+    color: #c7aa8b;
+}
+
+.identity {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.identity h3 {
+    margin: 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+.line {
+    width: 60%;
+    border: 1.5px solid #c7aa8b;
+    margin-left: 14rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.Competence, .Formation, .Projets , .Langues , .intérêt   {
+    display: flex;
+    gap: 4rem;
+}
+.interet{
+    display: flex;
+  gap: 50%;
+ 
+}
